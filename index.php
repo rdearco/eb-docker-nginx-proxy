@@ -1,1 +1,1 @@
-<?= "<h1>Hello from PHP Deployment 5</h1>" ?>
+<?= "<h1>Hello from PHP Deployment 6</h1>" ?>
