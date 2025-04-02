@@ -33,5 +33,5 @@ jobs:
           environment_name: test-env
           region: us-east-1
           version_label: ${{ github.sha }}
-          s3_bucket: your-beanstalk-bucket
+          s3_bucket: elasticbeanstalk-us-east-1-421808740284
           deployment_package: deploy.zip
