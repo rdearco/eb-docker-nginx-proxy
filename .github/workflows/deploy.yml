@@ -29,8 +29,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: php-ebs
-          environment_name: test-env
+          application_name: frontend
+          environment_name: Frontend-env
           region: us-east-1
           version_label: ${{ github.sha }}
           s3_bucket: elasticbeanstalk-us-east-1-421808740284
