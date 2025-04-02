@@ -23,7 +23,7 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: your-app-name
-          environment_name: your-env-name
+          application_name: php-ebs
+          environment_name: test-env
           region: us-west-1
           version_label: ${{ github.sha }}
